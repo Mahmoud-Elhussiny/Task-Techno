@@ -1,0 +1,15 @@
+D:\MyWork\Projects\Task Techno\Employees_System\EmployeeSystem\EmployeeSystem.Aplication\bin\Debug\net6.0\EmployeeSystem.Aplication.deps.json
+D:\MyWork\Projects\Task Techno\Employees_System\EmployeeSystem\EmployeeSystem.Aplication\bin\Debug\net6.0\EmployeeSystem.Aplication.dll
+D:\MyWork\Projects\Task Techno\Employees_System\EmployeeSystem\EmployeeSystem.Aplication\bin\Debug\net6.0\EmployeeSystem.Aplication.pdb
+D:\MyWork\Projects\Task Techno\Employees_System\EmployeeSystem\EmployeeSystem.Aplication\bin\Debug\net6.0\EmployeeSystem.Domain.dll
+D:\MyWork\Projects\Task Techno\Employees_System\EmployeeSystem\EmployeeSystem.Aplication\bin\Debug\net6.0\EmployeeSystem.Domain.pdb
+D:\MyWork\Projects\Task Techno\Employees_System\EmployeeSystem\EmployeeSystem.Aplication\obj\Debug\net6.0\EmployeeSystem.Aplication.csproj.AssemblyReference.cache
+D:\MyWork\Projects\Task Techno\Employees_System\EmployeeSystem\EmployeeSystem.Aplication\obj\Debug\net6.0\EmployeeSystem.Aplication.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyWork\Projects\Task Techno\Employees_System\EmployeeSystem\EmployeeSystem.Aplication\obj\Debug\net6.0\EmployeeSystem.Aplication.AssemblyInfoInputs.cache
+D:\MyWork\Projects\Task Techno\Employees_System\EmployeeSystem\EmployeeSystem.Aplication\obj\Debug\net6.0\EmployeeSystem.Aplication.AssemblyInfo.cs
+D:\MyWork\Projects\Task Techno\Employees_System\EmployeeSystem\EmployeeSystem.Aplication\obj\Debug\net6.0\EmployeeSystem.Aplication.csproj.CoreCompileInputs.cache
+D:\MyWork\Projects\Task Techno\Employees_System\EmployeeSystem\EmployeeSystem.Aplication\obj\Debug\net6.0\EmployeeSystem.Aplication.csproj.CopyComplete
+D:\MyWork\Projects\Task Techno\Employees_System\EmployeeSystem\EmployeeSystem.Aplication\obj\Debug\net6.0\EmployeeSystem.Aplication.dll
+D:\MyWork\Projects\Task Techno\Employees_System\EmployeeSystem\EmployeeSystem.Aplication\obj\Debug\net6.0\refint\EmployeeSystem.Aplication.dll
+D:\MyWork\Projects\Task Techno\Employees_System\EmployeeSystem\EmployeeSystem.Aplication\obj\Debug\net6.0\EmployeeSystem.Aplication.pdb
+D:\MyWork\Projects\Task Techno\Employees_System\EmployeeSystem\EmployeeSystem.Aplication\obj\Debug\net6.0\ref\EmployeeSystem.Aplication.dll

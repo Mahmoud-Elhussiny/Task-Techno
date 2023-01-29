@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "zQK/shEAnpg09jpAOf54HFGiV7ZhZBPGcTefrhhD/NdenlmyfNbn/NDsT6gWgXLZT/lez2Su2qt524+uULIJVg==",
+  "success": true,
+  "projectFilePath": "D:\\MyWork\\Projects\\Task Techno\\Employees_System\\EmployeeSystem\\EmployeeSystem.Domain\\EmployeeSystem.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ma7moud\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.13\\microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\Ma7moud\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.13\\microsoft.windowsdesktop.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\Ma7moud\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.13\\microsoft.netcore.app.ref.6.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}

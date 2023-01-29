@@ -1,0 +1,12 @@
+D:\MyWork\Projects\Task Techno\Employees_System\EmployeeSystem\EmployeeSystem.Domain\bin\Debug\net6.0\EmployeeSystem.Domain.deps.json
+D:\MyWork\Projects\Task Techno\Employees_System\EmployeeSystem\EmployeeSystem.Domain\bin\Debug\net6.0\EmployeeSystem.Domain.dll
+D:\MyWork\Projects\Task Techno\Employees_System\EmployeeSystem\EmployeeSystem.Domain\bin\Debug\net6.0\EmployeeSystem.Domain.pdb
+D:\MyWork\Projects\Task Techno\Employees_System\EmployeeSystem\EmployeeSystem.Domain\obj\Debug\net6.0\EmployeeSystem.Domain.csproj.AssemblyReference.cache
+D:\MyWork\Projects\Task Techno\Employees_System\EmployeeSystem\EmployeeSystem.Domain\obj\Debug\net6.0\EmployeeSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyWork\Projects\Task Techno\Employees_System\EmployeeSystem\EmployeeSystem.Domain\obj\Debug\net6.0\EmployeeSystem.Domain.AssemblyInfoInputs.cache
+D:\MyWork\Projects\Task Techno\Employees_System\EmployeeSystem\EmployeeSystem.Domain\obj\Debug\net6.0\EmployeeSystem.Domain.AssemblyInfo.cs
+D:\MyWork\Projects\Task Techno\Employees_System\EmployeeSystem\EmployeeSystem.Domain\obj\Debug\net6.0\EmployeeSystem.Domain.csproj.CoreCompileInputs.cache
+D:\MyWork\Projects\Task Techno\Employees_System\EmployeeSystem\EmployeeSystem.Domain\obj\Debug\net6.0\EmployeeSystem.Domain.dll
+D:\MyWork\Projects\Task Techno\Employees_System\EmployeeSystem\EmployeeSystem.Domain\obj\Debug\net6.0\refint\EmployeeSystem.Domain.dll
+D:\MyWork\Projects\Task Techno\Employees_System\EmployeeSystem\EmployeeSystem.Domain\obj\Debug\net6.0\EmployeeSystem.Domain.pdb
+D:\MyWork\Projects\Task Techno\Employees_System\EmployeeSystem\EmployeeSystem.Domain\obj\Debug\net6.0\ref\EmployeeSystem.Domain.dll

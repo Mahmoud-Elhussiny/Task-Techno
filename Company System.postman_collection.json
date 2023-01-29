@@ -1,0 +1,424 @@
+{
+	"info": {
+		"_postman_id": "32f2ba7f-690d-4152-8583-05ae10315065",
+		"name": "Company System",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14124098"
+	},
+	"item": [
+		{
+			"name": "Crud_Company",
+			"item": [
+				{
+					"name": "Create_Company",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Hello\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{TaskHost}}/api/CreateCompany",
+							"host": [
+								"{{TaskHost}}"
+							],
+							"path": [
+								"api",
+								"CreateCompany"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Updat_Company",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 9,\r\n  \"name\": \"asd_asd\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{TaskHost}}/api/UpdateCompany",
+							"host": [
+								"{{TaskHost}}"
+							],
+							"path": [
+								"api",
+								"UpdateCompany"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetAllCompanies",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{TaskHost}}/api/GetAllCompanies",
+							"host": [
+								"{{TaskHost}}"
+							],
+							"path": [
+								"api",
+								"GetAllCompanies"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetCompanyById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{TaskHost}}/api/GetCompanyById?Id=1",
+							"host": [
+								"{{TaskHost}}"
+							],
+							"path": [
+								"api",
+								"GetCompanyById"
+							],
+							"query": [
+								{
+									"key": "Id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteCompanies",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{TaskHost}}/api/DeleteCompany?Id=0",
+							"host": [
+								"{{TaskHost}}"
+							],
+							"path": [
+								"api",
+								"DeleteCompany"
+							],
+							"query": [
+								{
+									"key": "Id",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Crud_Department",
+			"item": [
+				{
+					"name": "Create_Department",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"doaa\",\r\n  \"companyId\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{TaskHost}}/api/CreateDepartment",
+							"host": [
+								"{{TaskHost}}"
+							],
+							"path": [
+								"api",
+								"CreateDepartment"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update_Department",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 5,\r\n  \"name\": \"Hello\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{TaskHost}}/api/UpdateDepartment",
+							"host": [
+								"{{TaskHost}}"
+							],
+							"path": [
+								"api",
+								"UpdateDepartment"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetAllDepartment",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{TokenUser}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{TaskHost}}/api/GetAllDepartments",
+							"host": [
+								"{{TaskHost}}"
+							],
+							"path": [
+								"api",
+								"GetAllDepartments"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete_Department",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{TaskHost}}/api/DeleteDepartment?Id=6",
+							"host": [
+								"{{TaskHost}}"
+							],
+							"path": [
+								"api",
+								"DeleteDepartment"
+							],
+							"query": [
+								{
+									"key": "Id",
+									"value": "6"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetDepartmentById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{TaskHost}}/api/GetDepartmentById?Id=5",
+							"host": [
+								"{{TaskHost}}"
+							],
+							"path": [
+								"api",
+								"GetDepartmentById"
+							],
+							"query": [
+								{
+									"key": "Id",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Crud_Employee",
+			"item": [
+				{
+					"name": "Create_Employee",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{Token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Doaa\",\r\n  \"userName\": \"asd2\",\r\n  \"password\": \"asd123\",\r\n  \"address\": \"string\",\r\n  \"isAdmin\": true,\r\n  \"departments_Id\": [\r\n    2,3,4\r\n  ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{TaskHost}}/api/CreateEmployee",
+							"host": [
+								"{{TaskHost}}"
+							],
+							"path": [
+								"api",
+								"CreateEmployee"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update_Request",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 1,\r\n  \"isAdmin\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{TaskHost}}/api/UpdateEmployee",
+							"host": [
+								"{{TaskHost}}"
+							],
+							"path": [
+								"api",
+								"UpdateEmployee"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetAll_Employees",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{TaskHost}}/api/GetAllEmployees",
+							"host": [
+								"{{TaskHost}}"
+							],
+							"path": [
+								"api",
+								"GetAllEmployees"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetEmployeeById",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Delete_Employee",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{TaskHost}}/api/DeleteEmployee?Id=3",
+							"host": [
+								"{{TaskHost}}"
+							],
+							"path": [
+								"api",
+								"DeleteEmployee"
+							],
+							"query": [
+								{
+									"key": "Id",
+									"value": "3"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "UserMangment",
+			"item": [
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"userName\": \"asd\",\r\n  \"password\": \"asd123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{TaskHost}}/api/login",
+							"host": [
+								"{{TaskHost}}"
+							],
+							"path": [
+								"api",
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
